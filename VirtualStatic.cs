@@ -35,7 +35,7 @@ namespace VirtualStatic
         /// <paramref name="subClass"/> is not / doesn't inherit <typeparamref name="BaseClass"/>.
         /// </exception>
         /// <exception cref="ArgumentNullException">
-        /// <paramref name="func"/> mat not be null.
+        /// <paramref name="func"/> may not be null.
         /// </exception>
         /// <exception cref="MissingMethodException">
         /// Couldn't find the method with the provided signature.
