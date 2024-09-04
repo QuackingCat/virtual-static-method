@@ -25,7 +25,7 @@ namespace VirtualStatic
         /// Additional exceptions may be thrown by <paramref name="func"/>.
         /// </remarks>
         /// <param name="subClass">The class that the function should be searched from.</param>
-        /// <param name="func">The function signature that is looked for (only parameters' types, return type, and function name)</param>
+        /// <param name="func">The function signature that is looked for. the search criteria are: parameters' types, return type, and function name)</param>
         /// <param name="args">The parameters that should be passed to the method.</param>
         /// <typeparam name="BaseClass">The class in the inheritance tree where the search stops (included).</typeparam>
         /// <returns>
